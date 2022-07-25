@@ -1,5 +1,5 @@
 ---
-name: DOKU
+name: Dokumentation
 about: Report missing, incomplete or misleading information
 title: "[DOKU]"
 labels: ''
