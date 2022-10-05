@@ -8,7 +8,7 @@ Here you can find, discuss and improve the existing 3d scanner designs (and curr
 *short description for the Mini coming soonish*
 
 ## OpenScan Classic (3d printable)
-![Scanner](https://user-images.githubusercontent.com/57842400/169291865-c63c1d08-4fa7-456f-bc4e-53b7bae7521c.jpg)
+![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanClassic.jpg?raw=true)
 *short description for the Classic also soonish*
 
 ## User Mods for OpenScan Scanners and How to contribute Designs and provide  Mods
