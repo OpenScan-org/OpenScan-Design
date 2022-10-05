@@ -2,12 +2,13 @@
 
 Here you can find, discuss and improve the existing 3d scanner designs (and current developments). The inital version was created in SketchUp and we plan on re-creating the OpenScanners in proper CAD software. If you are able to "translate" the designs into some other, more accessible format, you can also share it here.
 
-![Scanner](https://user-images.githubusercontent.com/57842400/169291865-c63c1d08-4fa7-456f-bc4e-53b7bae7521c.jpg)
 
 ## OpenScan Mini (3d printable)
+
 *short description for the Mini coming soonish*
 
 ## OpenScan Classic (3d printable)
+![Scanner](https://user-images.githubusercontent.com/57842400/169291865-c63c1d08-4fa7-456f-bc4e-53b7bae7521c.jpg)
 *short description for the Classic also soonish*
 
 ## User Mods for OpenScan Scanners and How to contribute Designs and provide  Mods
