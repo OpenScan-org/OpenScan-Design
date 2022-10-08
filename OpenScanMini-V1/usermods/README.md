@@ -8,7 +8,7 @@ Update the following table with the information about your mod:
 - Your name
 - A link to your sub-folder
 - A short description of your mod
-- The component the mod is designed for. Use `:heavy_check_mark:` for :heavy_check_mark:,`:x:` for :x:, ?
+- The component the mod is designed for. Use `:heavy_check_mark:` for :heavy_check_mark:,`:x:` for :x:
 
 like so:
 `
@@ -17,8 +17,8 @@ like so:
 | Creator | Mod/Folder Name | Short Description | V1 | V2 |
 | :--- | :---: | :---: | :---: | :---: |
 | Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | :heavy_check_mark: |
-| Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | :?: |
-| Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | :?: |
-| Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | :?: |
-| Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | :?: |
+| Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | ? |
+| Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | ? |
+| Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | ? |
+| Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | ? |
 
