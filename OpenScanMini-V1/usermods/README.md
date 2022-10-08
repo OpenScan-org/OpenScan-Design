@@ -16,7 +16,7 @@ like so:
 
 | Creator | Mod/Folder Name | Short Description | V1 | V2 |
 | :--- | :---: | :---: | :---: | :---: |
-| Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | :heavy_check_mark: |
+| Alan Devine | Turntables for D-shaped Stepper shaft | Mod name is self-explanator. D-shaped hole provides proper form-fit of the shaft and the turntable  | :heavy_check_mark: | :heavy_check_mark: |
 | Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | ? |
 | Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | ? |
 | Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | ? |
