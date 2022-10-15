@@ -14,9 +14,9 @@ like so:
 `
 | Creator | [Mod title](link) | Description | V1 | V2 |`
 
-| Creator | Mod/Folder Name | Short Description | V1 | V2 |
-| :--- | :---: | :---: | :---: | :---: |
-| Alan Devine | Turntables for D-shaped Shaft | Mod name is self-explanator. D-shaped hole provides proper form-fit of the shaft and the turntable  | :heavy_check_mark: | :heavy_check_mark: |
+| Creator | Mod/Folder Name | Short Description | V1 | V2 | F360 | FreeCAD |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Alan Devine | Turntables for D-shaped Shaft | Mod name is self-explanator. D-shaped hole provides proper form-fit of the shaft and the turntable  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | ? |
 | Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | ? |
 | Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | ? |
