@@ -12,7 +12,7 @@ Update the following table with the information about your mod:
 
 like so:
 `
-| Creator | [Mod title](link) | Description | V1 | V2 |`
+| Creator | [Mod title](link) | Description | V1 | V2 | F360 | FreeCAD |`
 
 | Creator | Mod/Folder Name | Short Description | V1 | V2 | F360 | FreeCAD |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
