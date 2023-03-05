@@ -5,7 +5,8 @@ Here you can find, discuss and improve the existing 3d scanner designs (and curr
 
 ## OpenScan Mini (3d printable)
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMini.jpg?raw=true)
-*short description for the Mini coming soonish*
+The OpenScan Mini is the smallest version of the scanners. It has an approx. scan volume of a sphere with radius of 9cm, perfect for small and detailed parts. It features a built-in LED lighting and polarizers to uniformly illuminate parts and to supress reflections.
+A Beta version of version 2 is also available.
 
 ## OpenScan Classic (3d printable)
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanClassic.jpg?raw=true)
