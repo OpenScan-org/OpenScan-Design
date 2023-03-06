@@ -3,13 +3,23 @@
 Here you can find, discuss and improve the existing 3d scanner designs (and current developments). The inital version was created in SketchUp and we plan on re-creating the OpenScanners in proper CAD software. If you are able to "translate" the designs into some other, more accessible format, you can also share it here.
 
 
-## OpenScan Mini (3d printable)
+## OpenScan Mini V1
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMini.jpg?raw=true)
-*short description for the Mini coming soonish*
 
-## OpenScan Classic (3d printable)
+The OpenScan Mini is the smallest version of the scanners. It has an approx. scan volume of a sphere with radius of 9cm, perfect for small and detailed parts. It features a built-in LED lighting and polarizers to uniformly illuminate parts and to supress reflections.
+Version 1 is the current release with configured OpenScan software and which is described in the documentation.
+
+## OpenScan Mini v2 BETA
+![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMiniV2Beta.jpg?raw=true)
+
+A Beta version of version 2 is also available. We have seen various user mods to add functionality to the OpenScan platform. We aim to incorporate as many user mods as possible in the new design and to make it more user-friendly to add mods. The idea is to increase printability, stability and stiffness, include mounting options for user mods, and allow modular use of various cameras and lightings.
+The beta design of version 2 is aimed for the OpenScan Shield version 2 but can also be used for version 1 (when printing a fitting enclosure for the version 1 OpenScan Shield). 
+
+## OpenScan Classic
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanClassic.jpg?raw=true)
-*short description for the Classic also soonish*
+
+The OpenScan Classic is for larger objects and potential usage of external cameras. The Classic is scaled to fit much larger items. It very much functions the same as the Mini, except the camera is in a fixed position and the object is rotated and tilted. 
+
 
 # User Mods for OpenScan Scanners
 You can actively helping with designing the OpenScan Scanners and provide user mods for others. We have seen many design tweaks and changes from various users on Thingiverse and other platforms. Unfortunately, the user mods on other platforms are slowly getting lost or are not up-to-date. Here, we want to provide a platform for you to exchange your user mods and also provide the option to curate mods so they are not getting lost in time and space. 
