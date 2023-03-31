@@ -13,7 +13,7 @@ Version 1 is the current release with configured OpenScan software and which is 
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMiniV2Beta.jpg?raw=true)
 
 A Beta version of version 2 is also available. We have seen various user mods to add functionality to the OpenScan platform. We aim to incorporate as many user mods as possible in the new design and to make it more user-friendly to add mods. The idea is to increase printability, stability and stiffness, include mounting options for user mods, and allow modular use of various cameras and lightings.
-The beta design of version 2 is aimed for the OpenScan Shield version 2 but can also be used for version 1 (when printing a fitting enclosure for the version 1 OpenScan Shield). 
+The beta design of version 2 is aimed for the OpenScan Shield version 2 but can also be used for version 1 (when printing a fitting enclosure for the version 1 OpenScan Shield). The BOM will be different from v1.
 
 ## OpenScan Classic
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanClassic.jpg?raw=true)
