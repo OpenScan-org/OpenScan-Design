@@ -27,6 +27,20 @@ The beta design of version 2 is aimed for the OpenScan Shield version 2 but can 
 | M2.5x10mm SHCS | 4 | fixating rpi and rpi cover to shield cover |
 | lubricant | 1-2 ml | for cog wheel and rotor |
 
+### Non-Essential BOM (Luxury and tinkerer upgrades)
+| Part | Amount | Short Description |
+| :--- | :---: | :---: |
+| microswitch w or w/o lever | 1 | endstop: standard microswitch found in many 3D printers, quality ones prefered (eg Omron D2FC) |
+| M1.6x12 (self-tapping optional) | 2 | endstop: through the endstop and directly into plastic of the base, self-tapping screws also work great |
+| Heat Inserts M3x4x5 | 2 | mounting points: eg for lighting dome mod |
+| M3x15mm standoff | 2 | mounting points: will replace two M3x8 from turntable |
+| F692 (2x6x3) mm | 3 | rotor guide: bearing with flange, will guide the rotor, reduce wobble and friction |
+| M2x12 SHCS/BHCS | 3 | rotor guide: will fixate the bearings in the base |
+| M3x65mm SHCS/BHCS | 1 | mounting camholder to rotor, put a heat insert on the *opposite* side of the rotor, extra stiffness |
+
+
+
+
 ## OpenScan Classic
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanClassic.jpg?raw=true)
 
