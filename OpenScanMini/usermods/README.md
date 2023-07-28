@@ -1,8 +1,8 @@
-#Collection of your user mods.
+# Collection of your user mods.
 
 This side is meant for adding small descriptions of various user mods. Every user mod will be placed into a separate folder.
 
-##Small Overview of User Mods
+## Small Overview of User Mods
 
 Update the following table with the information about your mod:
 - Your name
