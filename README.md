@@ -22,10 +22,10 @@ The beta design of version 2 is aimed for the OpenScan Shield version 2 but can 
 | M3x8mm SHCS/BHCS | 8+3 | Nema17 motors, shield cover |
 | M3x16mm SHCS/BHCS | 4 | cam holder and cam cover |
 | M3x40mm+ SHCS/BHCS | 1 | mounting camholder to rotor, any M3 equal or longer than 40mm will work, M3x65mm would be perfect, see non-essential BOM |
-| Heat Inserts M3x4x5 | 3+1+4 | so-called "Voron" inserts for base, rotor and cam mount, requires a solder iron |
+| Heat Inserts M3x4x5 | 3+1+4 | so-called "Voron" inserts for base, rotor, and cam mount, requires a solder iron to melt them in |
 | M2.5x10mm standoff | 4 | fixating v2 shield to shield cover |
 | M2.5x10mm SHCS | 4 | fixating rpi and rpi cover to shield cover |
-| lubricant | 1-2 ml | for cog wheel and rotor |
+| lubricant | 1-2 ml | lucricant that doesn't dissolve printed parts, ie white lithium grease, for cog wheel and rotor |
 
 ### Non-Essential BOM (Luxury and tinkerer upgrades)
 | Part | Amount | Short Description |
@@ -33,11 +33,13 @@ The beta design of version 2 is aimed for the OpenScan Shield version 2 but can 
 | microswitch w or w/o lever | 1 | endstop: standard microswitch found in many 3D printers, quality ones prefered (eg Omron D2FC) |
 | M1.6x12 (self-tapping optional) | 2 | endstop: through the endstop and directly into plastic of the base, self-tapping screws also work great |
 | Heat Inserts M3x4x5 | 2 | mounting points: eg for lighting dome mod |
-| M3x15mm standoff | 2 | mounting points: will replace two M3x8 from turntable |
+| M3x15mm standoff | 2 | mounting points: will replace two M3x8 from turntable. eg for light dome mod |
 | F692 (2x6x3) mm | 3 | rotor guide: bearing with flange, will guide the rotor, reduce wobble and friction |
 | M2x12 SHCS/BHCS | 3 | rotor guide: will fixate the bearings in the base |
 | M3x65mm SHCS/BHCS | 1 | mounting camholder to rotor, put a heat insert on the *opposite* side of the rotor, extra stiffness |
-
+| Fan 3010 or 3007 | 1 | motors and drivers are producing heat which can soften PLA (and PETG) over time, a fan helps to prevent that, 3V3, 5V or 12V |
+| M3x14 SHCS/BHCS | 4 | for mounting the fan into the housing |
+| M3 nuts | 4 | for mounting the fan into the housing |
 
 
 
