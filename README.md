@@ -9,7 +9,7 @@ Here you can find, discuss and improve the existing 3d scanner designs (and curr
 The OpenScan Mini is the smallest version of the scanners. It has an approx. scan volume of a sphere with radius of 9cm, perfect for small and detailed parts. It features a built-in LED lighting and polarizers to uniformly illuminate parts and to supress reflections.
 Version 1 is the current release with configured OpenScan software and which is described in the documentation.
 
-## OpenScan Mini v2 BETA
+## OpenScan Mini v2 RC1
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMiniV2Beta.jpg?raw=true)
 
 A Beta version of version 2 is also available. We have seen various user mods to add functionality to the OpenScan platform. We aim to incorporate as many user mods as possible in the new design and to make it more user-friendly to add mods. The idea is to increase printability, stability and stiffness, include mounting options for user mods, and allow modular use of various cameras and lightings.
