@@ -1,4 +1,4 @@
-D# OS Mini
+# OS Mini
 
 The mini is the typical al-in-one version for smaller objects up to 8-9cm in diameter. The V1 is the current official version and all shipped kits are packaged for the V1. 
 The V2 is in development and also comes with an updated shield. Nonetheless, the V1 shield will also work with the V2. However, the hardware parts, such as screws, have to be sourced on your own.
