@@ -20,7 +20,7 @@ The beta design of version 2 is aimed for the OpenScan Shield version 2 but can 
 | Part | Amount | Short Description |
 | :--- | :---: | :---: |
 | M3x8mm SHCS/BHCS | 8+3 | Nema17 motors, shield cover |
-| M3x16mm SHCS/BHCS | 4 | cam holder and cam cover |
+| M3x10mm SHCS/BHCS | 4 | cam holder and cam cover |
 | M3x40mm+ SHCS/BHCS | 1 | mounting camholder to rotor, any M3 equal or longer than 40mm will work, M3x65mm would be perfect, see non-essential BOM |
 | Heat Inserts M3x4x5 | 3+1+4 | so-called "Voron" inserts for base, rotor, and cam mount, requires a solder iron to melt them in |
 | M2.5x10mm standoff | 4 | fixating v2 shield to shield cover |
