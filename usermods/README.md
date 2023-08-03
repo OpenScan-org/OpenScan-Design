@@ -12,12 +12,12 @@ Update the following table with the information about your mod:
 
 like so:
 `
-| Creator | [Mod title](link) | Description | V1 | V2 | STEP | F360 | FreeCAD |`
+| Creator | [Mod title](link) | Description | Mini V1 | Mini V2 | Midi | Classic | STEP | F360 | FreeCAD |`
 
-| Creator | Mod/Folder Name | Short Description | V1 | V2 | STEP | F360 | FreeCAD |
+| Creator | Mod/Folder Name | Short Description | Mini V1 | Mini V2 | Midi | Classic | STEP | F360 | FreeCAD |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Alan Devine | Turntables for D-shaped Shaft | Mod name is self-explanatory. D-shaped hole provides proper form-fit of the shaft and the turntable  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |
-| ep1cman | Platform Holder | Base Plate with 4 slots for turntable storage | :x: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: |
+| Alan Devine | Turntables for D-shaped Shaft | Mod name is self-explanatory. D-shaped hole provides proper form-fit of the shaft and the turntable  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| ep1cman | Platform Holder | Base Plate with 4 slots for turntable storage | :x: | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
 | Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | :x: | ? |
 | Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | :x: | ? |
 | Creator | Mod/Folder Name | Short Description | :heavy_check_mark: | :x: | ? |
