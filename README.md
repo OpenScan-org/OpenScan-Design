@@ -6,14 +6,14 @@ Here you can find, discuss and improve the existing 3d scanner designs (and curr
 ## OpenScan Mini V1
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMini.jpg?raw=true)
 
-The OpenScan Mini is the smallest version of the scanners. It has an approx. scan volume of a sphere with radius of 9cm, perfect for small and detailed parts. It features a built-in LED lighting and polarizers to uniformly illuminate parts and to supress reflections.
+The OpenScan Mini is the smallest version of the scanners. It has an approx. scan volume of a sphere with diameter of 9cm, perfect for small and detailed parts. It features a built-in LED lighting and polarizers to uniformly illuminate parts and to supress reflections.
 Version 1 is the current release with configured OpenScan software and which is described in the documentation.
 
-## OpenScan Mini v2 RC1
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMiniV2Beta.jpg?raw=true)
+## OpenScan Mini V2 RC
+![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMiniV2.jpg?raw=true)
 
-A Beta version of version 2 is also available. We have seen various user mods to add functionality to the OpenScan platform. We aim to incorporate as many user mods as possible in the new design and to make it more user-friendly to add mods. The idea is to increase printability, stability and stiffness, include mounting options for user mods, and allow modular use of various cameras and lightings.
-The beta design of version 2 is aimed for the OpenScan Shield version 2 but can also be used for version 1 (when printing a fitting enclosure for the version 1 OpenScan Shield). The BOM will be different from v1:
+A RC version of version 2 is also available. We have seen various user mods to add functionality to the OpenScan platform. We aim to incorporate as many user mods as possible in the new design and to make it more user-friendly to add mods. The idea is to increase printability, stability and stiffness, include mounting options for user mods, and allow modular use of various cameras and lightings.
+The design of version 2 is aimed for the OpenScan Shield version 2 but can also be used for version 1 (when printing a fitting enclosure for the version 1 OpenScan Shield). The BOM will be different from v1:
 
 ### Essential BOM
 
@@ -42,6 +42,11 @@ The beta design of version 2 is aimed for the OpenScan Shield version 2 but can 
 | M3 nuts | 4 | for mounting the fan into the housing |
 
 
+## OpenScan Midi
+![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMidi.jpg?raw=true)
+
+A scaled up version of the Mini allowing for larger obejects to be scanned. The scanning volume is approx a sphere with 15cm diameter. This is the largest size before some flat cables for the camera slowly lose signal integrity resulting in occasional camera hiccups. The Midi uses the same same BOM as the Mini V2.
+The rotor has a diameter of 30cm and is probably too large for many build plate, thus, there is also a segmented version provided. The segments slide into each other and are fixated afterwards with filament pieces through the 9 holes (and a little CA glue if necessary) or via M2/M2.5 grub screws of approx length 8mm.
 
 ## OpenScan Classic
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanClassic.jpg?raw=true)
