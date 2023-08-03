@@ -45,8 +45,8 @@ The design of version 2 is aimed for the OpenScan Shield version 2 but can also 
 ## OpenScan Midi
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMidi.jpg?raw=true)
 
-A scaled up version of the Mini allowing for larger obejects to be scanned. The scanning volume is approx a sphere with 15cm diameter. This is the largest size before some flat cables for the camera slowly lose signal integrity resulting in occasional camera hiccups. The Midi uses the same same BOM as the Mini V2.
-The rotor has a diameter of 30cm and is probably too large for many build plate, thus, there is also a segmented version provided. The segments slide into each other and are fixated afterwards with filament pieces through the 9 holes (and a little CA glue if necessary) or via M2/M2.5 grub screws of approx length 8mm.
+A scaled-up version of the Mini allows for larger objects to be scanned. The scanning volume is approx a sphere with 15cm diameter. This is the largest size before some flat cables for the camera slowly lose signal integrity resulting in occasional camera hiccups. The Midi uses the same BOM as the Mini V2.
+The rotor has a diameter of 30cm and is too large for many build plates. Thus, there is also a segmented version provided. The segments slide into each other and are fixated afterwards with filament pieces through the 9 holes (and a little CA glue if necessary) or via M2/M2.5 grub screws of approx length 8mm. The large rotor benefits from the non-essential bearing upgrades.
 
 ## OpenScan Classic
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanClassic.jpg?raw=true)
