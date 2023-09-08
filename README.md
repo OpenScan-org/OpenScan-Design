@@ -36,7 +36,7 @@ The design of version 2 is aimed at the OpenScan Shield Version 2 (not released 
 | M3x15mm standoff | 2 | mounting points: will replace two M3x8 from turntable. eg for light dome mod |
 | F692 (2x6x3) mm | 4 | rotor guide: bearing with flange, will guide the rotor, reduce wobble and friction |
 | M2x12 SHCS/BHCS | 4 | rotor guide: will fixate the bearings in the base |
-| M3x65mm SHCS/BHCS | 1 | mounting cam holder to rotor, put a heat insert on the *opposite* side of the rotor, extra stiffness |
+| M3x70mm SHCS/BHCS | 1 | mounting cam holder to rotor, put a heat insert on the *opposite* side of the rotor, extra stiffness |
 | Fan 3010 or 3007 | 1 | motors and drivers are producing heat which can soften PLA (and PETG) over time; a fan helps to prevent that; 3V3, 5V or 12V |
 | M3x14 SHCS/BHCS | 4 | for mounting the fan into the housing |
 | M3 nuts | 4 | for mounting the fan into the housing |
