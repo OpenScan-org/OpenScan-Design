@@ -21,8 +21,8 @@ The design of version 2 is aimed at the OpenScan Shield Version 2 (not released 
 | :--- | :---: | :---: |
 | M3x8mm SHCS/BHCS | 8+3 | Nema17 motors, shield cover |
 | M3x10mm SHCS/BHCS | 4 | cam holder and cam cover |
-| M3x40mm+ SHCS/BHCS | 1 | mounting cam holder to rotor, any M3 equal or longer than 40mm will work, M3x65mm would be perfect, see non-essential BOM |
-| Heat Inserts M3x4x5 | 3+1+4 | so-called "Voron" inserts for base, rotor, and cam mount requires a soldering iron to melt them in |
+| M3x40mm+ SHCS/BHCS | 1 | mounting cam holder to rotor, any M3 equal or longer than 40mm will work, M3x70mm would be perfect, see non-essential BOM |
+| Heat Inserts M3x4x5 | 3+1+4 | so-called "Voron" inserts for base, rotor, and cam mount. Must be 5mm diameter! 4.6mm diameter will not sit securely. They require a soldering iron to melt them in. |
 | M2.5x10mm standoff | 4 | fixating v2 shield to shield cover |
 | M2.5x10mm SHCS | 4 | fixating RPI and RPI cover to shield cover |
 | lubricant | 2-3 ml | lubricant that doesn't dissolve printed parts, ie, white lithium grease, for cog wheel and rotor |
@@ -36,7 +36,7 @@ The design of version 2 is aimed at the OpenScan Shield Version 2 (not released 
 | M3x15mm standoff | 2 | mounting points: will replace two M3x8 from turntable. eg for light dome mod |
 | F692 (2x6x3) mm | 4 | rotor guide: bearing with flange, will guide the rotor, reduce wobble and friction |
 | M2x12 SHCS/BHCS | 4 | rotor guide: will fixate the bearings in the base |
-| M3x65mm SHCS/BHCS | 1 | mounting cam holder to rotor, put a heat insert on the *opposite* side of the rotor, extra stiffness |
+| M3x70mm SHCS/BHCS | 1 | mounting cam holder to rotor, put a heat insert on the *opposite* side of the rotor, extra stiffness |
 | Fan 3010 or 3007 | 1 | motors and drivers are producing heat which can soften PLA (and PETG) over time; a fan helps to prevent that; 3V3, 5V or 12V |
 | M3x14 SHCS/BHCS | 4 | for mounting the fan into the housing |
 | M3 nuts | 4 | for mounting the fan into the housing |
