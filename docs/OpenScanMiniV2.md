@@ -1,5 +1,7 @@
 # Building Manual OpenScan Mini & Midi V2
 
+![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMiniV2.jpg?raw=true)
+
 ## Intro
 Various parts and hardware were updated from V1 to V1 to improve rigidity and user-friendliness, especially in printing. No more part orientation and support structure settings in your slicer. Just print-in-place. The V2 design natively supports the V2 shields ("black shield"), which are currently inofficially available as a prototype via a development channel on Discord.  
 
@@ -7,7 +9,7 @@ V2 also uses heat inserts M3x4x5 (diameter x length x diameter), widely populari
 All other hardware parts are summarized in the following tables. Not listed items, such as RPI and Arducam 519, have not changed from the V1 and are omitted here.
 
 ### Essential Bill of Material (BOM)
-The parts you definitely need to build a Mini/Midi V2. Some M3 bolts can be recycled, but most hardware parts have changed.
+The parts you need to build a Mini/Midi V2. Some M3 bolts can be recycled, but most hardware parts have changed.
 | Part | Amount | Short Description |
 | :--- | :---: | :---: |
 | M3x8mm SHCS/BHCS | 8+3 | for mounting Nema17 motors, base cover |
@@ -33,29 +35,36 @@ These parts are not needed for a functioning V2 but might make life here and the
 | M3x15 SHCS/BHCS | 4 | for mounting the fan into the housing |
 | M3 nuts | 4 | for mounting the fan into the housing |
 
-
 ## Printing and preparing the parts
 All V2 parts are designed as print in place, i.e., no part re-orientation or supports are required. When supports are needed, then they are already modeled into the files. The recommended print settings are 4 perimeters and approx. 40% cubic infill. Printing with 0.2mm layer height is highly recommended because all dimensions and clearances in the parts are modeled as multiples of 0.2mm! 
 The parts should be printed in PETG or ABS/ASA if your printer can handle it. PLA can also work, but due to the enclosed design, excessive heat from the motors and drivers can slowly deform PLA in the long term. When printing PLA, the motor currents MUST be adjusted to a working minimum to prevent heat creep of PLA (approx. 0.5A).
 The cogwheel/gear for the rotor motor might have an over- or undersized center hole, depending on your printer settings and capabilities. It is recommended to print out this gear in three sizes, 95%, 100%, and 105%, to ensure that one of the gears fits. The gear should fit snugly in the shaft with sufficient friction to hold it in place.
+
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/bridging-help.png?raw=true)
+
 Some parts have overhangs and bridges. Those have to be checked, and dangling filament parts should be cleaned. Take special notice of the base part since sacrificial bridges are modeled into it. Those intentional bridges are for helping your slicer slice and place bridges in the arced overhang for the rotor properly. The sacrificial bridges around the bearing insert points should be removed carefully to be able to insert bearings later on. Those bridges can be left untouched when not planning on using bearings at all.
 As a last step, all required heat inserts should be appropriately set. Please take a look at the images below. Orange spots are mandatory heat inserts, and yellow spots are optional heat inserts for mods.
 
-###Base
+### Base
+
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/heatinserts-base.png?raw=true)
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/heatinserts-base-2.png?raw=true)
+
 Three inserts for the side cover are required. the additional ones at the bottom are for fixating the scanner to a table or optional turntable holder platform. The two optional on top are for the light dome mod for more uniform illumination.
 
 ###Rotor
+
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/heatinserts-rotor.png?raw=true)
+
 *Only melt in ONE heat insert depending on your available M3 bolt length!* M3x70 is recommended since it gives the most stability and most secure fixation, but M3x70 is sometimes hard to get. If you cannot source a M3x70 for a reasonable price (or low quantity), then pick the longest M3 you can find and melt in the heat insert onto the short side.
 
-###Imaging Unit Cover
+### Imaging Unit Cover
+
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/heatinserts-IU-cover.png?raw=true)
+
 Melt in four heat inserts as indicated. Try to leave the small ridges around the insertion point intact. They will help aligning the camera module later. There are some closed cut-outs. YOu have to remove the ones that suit your JST-XH connector you solder onto it (or you simply break away all cut-outs, you monster).
 
-##Assembly of the Base
+## Assembly of the Base
 When all parts are printed and prepared, assembly is mainly straight-forward. The provided STEP file provides you a 3D model of the whole assembly. Here are some advices for assembly:
 
 - Optional: Install tiny bearings with M2 bolts for the rotor. They bolt directly into plastic. Those M2 bolts are for straight alignment not for high clamping force, so do NOT overtighten them.
