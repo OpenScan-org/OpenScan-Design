@@ -15,7 +15,7 @@ Version 1 is the current release with configured OpenScan software, which is des
 Version 2 is also available. We have seen various user mods to add functionality to the OpenScan platform. We aim to incorporate as many user mods as possible in the new design and to make adding mods more user-friendly. The idea is to increase printability, stability, and stiffness, include mounting options for user mods, and allow modular use of various cameras and lighting.
 The design of version 2 is aimed at the OpenScan Shield Version 2 ("black shield", not released yet, for info, visit the Discord channel) but can also be used for the current "green shield". The BOM is slightly different from V1, various screws can be recycled, and the remaining is not exotic:
 
-Head over to the building instructions in the Documentation: https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/docs/OpenScanMiniV2.md
+Head over to the building instructions in the Documentation: /docs/OpenScanMiniV2.md
 
 ### Essential BOM
 
