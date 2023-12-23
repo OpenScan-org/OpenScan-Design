@@ -52,7 +52,7 @@ As a last step, all required heat inserts should be appropriately set. Please ta
 
 Three inserts for the side cover are required. the additional ones at the bottom are for fixating the scanner to a table or optional turntable holder platform. The two optional on top are for the light dome mod for more uniform illumination.
 
-###Rotor
+### Rotor
 
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/heatinserts-rotor.png?raw=true)
 
