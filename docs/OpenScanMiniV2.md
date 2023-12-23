@@ -40,7 +40,7 @@ All V2 parts are designed as print in place, i.e., no part re-orientation or sup
 The parts should be printed in PETG or ABS/ASA if your printer can handle it. PLA can also work, but due to the enclosed design, excessive heat from the motors and drivers can slowly deform PLA in the long term. When printing PLA, the motor currents MUST be adjusted to a working minimum to prevent heat creep of PLA (approx. 0.5A).
 The cogwheel/gear for the rotor motor might have an over- or undersized center hole, depending on your printer settings and capabilities. It is recommended to print out this gear in three sizes, 95%, 100%, and 105%, to ensure that one of the gears fits. The gear should fit snugly in the shaft with sufficient friction to hold it in place.
 
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/bridging-help.png?raw=true)
+![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/bridging-help.jpg?raw=true)
 
 Some parts have overhangs and bridges. Those have to be checked, and dangling filament parts should be cleaned. Take special notice of the base part since sacrificial bridges are modeled into it. Those intentional bridges are for helping your slicer slice and place bridges in the arced overhang for the rotor properly. The sacrificial bridges around the bearing insert points should be removed carefully to be able to insert bearings later on. Those bridges can be left untouched when not planning on using bearings at all.
 As a last step, all required heat inserts should be appropriately set. Please take a look at the images below. Orange spots are mandatory heat inserts, and yellow spots are optional heat inserts for mods.
