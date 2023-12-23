@@ -82,6 +82,9 @@ When all parts are printed and prepared, assembly is mainly straightforward. The
 - Place the shield onto the cover and screw the M2.5 standoffs directly into the plastic of the cover. Again, they are not meant to bear large forces; do not overtighten them; otherwise, you strip the plastic. 
 - Place/press the RPI with its cover on top. The 2x20 connector has quite high friction, so take your time and do not accidentally bend the pins. Use M2.5 screws to secure the cover to the RPI+shield assembly. Once again, those should not be overtightened as they directly transfer excessive torque through the standoff into plastic.
 - Bolting the base cover onto the base should be the last step when all wiring and alignment are done.
+- 
+## Modding your OpenScan
+There are some user mods already available. My favorite is the illumination dome mod, which places a half-cylinder/half-sphere shell around the scanned area, minimizing auto-focus issues and smoothing illumination. You can freely share your mods on printables, Thingiverse, GitHub, or Discord. When sharing mods, ideally, you also provide print instructions, e.g., "print-in-place, N perimeters, M% infill, etc.". 
 
 
 
