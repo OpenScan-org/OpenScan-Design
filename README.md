@@ -4,18 +4,22 @@ Here you can find, discuss and improve the existing 3d scanner designs (and curr
 
 
 ## OpenScan Mini V1
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMini.jpg?raw=true)
+![Scanner](../main/images/OpenScanMini.jpg?raw=true)
 
 The OpenScan Mini is the smallest version of the scanner. It has an approx. scan volume of a sphere with a diameter of 8-9cm, perfect for small and detailed parts. It features built-in LED lighting and polarizers to uniformly illuminate parts and to suppress reflections.
 Version 1 is the current release with configured OpenScan software, which is described in the documentation. All hardware kits sold with the current kits are for the Mini V1 and the Classic
 
 ## OpenScan Mini V2 
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMiniV2.jpg?raw=true)
+![Scanner](../main/images/OpenScanMiniV2.jpg?raw=true)
 
 Version 2 is also available. We have seen various user mods to add functionality to the OpenScan platform. We aim to incorporate as many user mods as possible in the new design and to make adding mods more user-friendly. The idea is to increase printability, stability, and stiffness, include mounting options for user mods, and allow modular use of various cameras and lighting.
 The design of version 2 is aimed at the OpenScan Shield Version 2 ("black shield", not released yet, for info, visit the Discord channel) but can also be used for the current "green shield". The BOM is slightly different from V1, various screws can be recycled, and the remaining is not exotic:
 
-Head over to the building instructions in the Documentation: /docs/OpenScanMiniV2.md
+Head over to the building instructions in the Documentation:
+
+[**Assembly Manual for Mini and Midi**](../main/docs/OpenScanV2-Assembly.md)
+
+[**Electronics Manual for green and black shield**](../main/docs/OpenScanV2-Electronics.md)
 
 ### Essential BOM
 
@@ -44,13 +48,13 @@ Head over to the building instructions in the Documentation: /docs/OpenScanMiniV
 
 
 ## OpenScan Midi
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMidi.jpg?raw=true)
+![Scanner](../main/images/OpenScanMidi.jpg?raw=true)
 
 A scaled-up version of the Mini allows for larger objects to be scanned. The scanning volume is approx. a sphere with 16cm diameter. This is the largest size before the flat cable for the camera slowly loses signal integrity, resulting in occasional camera hiccups. The Midi uses the same BOM as the Mini V2.
 The rotor has a diameter of 30cm and is too large for many build plates. Thus, a segmented version is also provided. The segments slide into each other and are fixated afterwards with filament pieces through the 9 holes (and a little CA glue if necessary) or via M2/M2.5 grub screws of approx length 10mm. The large rotor benefits from the non-essential bearing upgrades.
 
 ## OpenScan Classic
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanClassic.jpg?raw=true)
+![Scanner](../main/images/OpenScanClassic.jpg?raw=true)
 
 The OpenScan Classic is for larger objects and potential usage of external cameras. The Classic is scaled to fit much larger items. It very much functions the same as the Mini, except the camera is in a fixed position and the object is rotated and tilted. 
 
