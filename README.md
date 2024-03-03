@@ -23,8 +23,8 @@ Head over to the building instructions in the Documentation: /docs/OpenScanMiniV
 | :--- | :---: | :---: |
 | M3x8mm SHCS/BHCS | 8+3+4 | Nema17 motors, base cover, imaging unit (IU) |
 | M3x40mm+ SHCS/BHCS | 1 | mounting IU to rotor, any M3 equal or longer than 40mm will work, M3x70mm would be perfect, see non-essential BOM |
-| Heat Inserts M3x4x5 | 3+1+4 | so-called "Voron" inserts for base, rotor, and cam mount. Must be 5mm diameter! 4.6mm diameter will not sit securely. They require a soldering iron to melt them in. |
-| M2.5x10mm standoff | 4 | fixating (black) shield to base cover, screwed directly into plastic |
+| Heat Inserts M3x4x5 | 3+1+4 | sometimes called "Voron" inserts for base, rotor, and cam mount. Must be 5mm diameter! 4.6mm diameter will not sit securely. They require a soldering iron to melt them in. |
+| M2.5x10mm standoff | 4 | fixating (black) shield to base cover, screwed directly into plastic, long threads preferred (6mm+) |
 | M2.5x10mm SHCS | 4 | fixating RPI and RPI cover to base cover |
 | lubricant | 2-3 ml | lubricant that doesn't dissolve printed parts, ie, white lithium grease, for cog wheel |
 
