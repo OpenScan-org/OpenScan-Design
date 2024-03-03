@@ -21,8 +21,7 @@ Head over to the building instructions in the Documentation: /docs/OpenScanMiniV
 
 | Part | Amount | Short Description |
 | :--- | :---: | :---: |
-| M3x8mm SHCS/BHCS | 8+3 | Nema17 motors, base cover |
-| M3x10mm SHCS/BHCS | 4 | base imaging unit (IU) and cover |
+| M3x8mm SHCS/BHCS | 8+3+4 | Nema17 motors, base cover, imaging unit (IU) |
 | M3x40mm+ SHCS/BHCS | 1 | mounting IU to rotor, any M3 equal or longer than 40mm will work, M3x70mm would be perfect, see non-essential BOM |
 | Heat Inserts M3x4x5 | 3+1+4 | so-called "Voron" inserts for base, rotor, and cam mount. Must be 5mm diameter! 4.6mm diameter will not sit securely. They require a soldering iron to melt them in. |
 | M2.5x10mm standoff | 4 | fixating (black) shield to base cover, screwed directly into plastic |
@@ -33,12 +32,12 @@ Head over to the building instructions in the Documentation: /docs/OpenScanMiniV
 | Part | Amount | Short Description |
 | :--- | :---: | :---: |
 | microswitch w or w/o lever | 1 | endstop: standard microswitch found in many 3D printers, quality ones prefered (eg Omron D2FC) |
-| M1.6x12 (self-tapping optional) | 2 | endstop: through the endstop and directly into the plastic of the base, self-tapping screws work better |
-| Heat Inserts M3x4x5 | 2 | mounting points: eg for lighting dome mod |
-| M3x15mm standoff | 2 | mounting points: will replace two M3x8 from turntable. eg for light dome mod |
+| M1.6x12 (M2 self-tapping optional) | 2 | endstop: fixating the endstop, screw directly into the plastic, self-tapping screws work better |
+| Heat Inserts M3x4x5 | 2 | mounting points: for lighting dome mod |
+| M3x15mm standoff | 2 | mounting points: will replace two M3x8 from turntable, for lighting dome mod  |
 | F692 (2x6x3) mm | 4 | rotor guide: bearing with flange, will guide the rotor, reduce wobble and friction |
-| M2x12 SHCS/BHCS | 4 | rotor guide: will fixate the bearings in the base |
-| M3x70mm SHCS/BHCS | 1 | mounting cam holder to rotor, put a heat insert on the *opposite* side of the rotor, extra stiffness |
+| M2x14 SHCS/BHCS | 4 | rotor guide: will fixate the bearings in the base |
+| M3x70mm SHCS/BHCS | 1 | mounting IU to rotor, put a heat insert on the *opposite* side of the rotor, extra stiffness |
 | Fan 3010 or 3007 | 1 | motors and drivers are producing heat which can soften PLA (and PETG) over time; a fan helps to prevent that; 3V3, 5V or 12V |
 | M3x14 SHCS/BHCS | 4 | for mounting the fan into the housing |
 | M3 nuts | 4 | for mounting the fan into the housing |
@@ -47,7 +46,7 @@ Head over to the building instructions in the Documentation: /docs/OpenScanMiniV
 ## OpenScan Midi
 ![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMidi.jpg?raw=true)
 
-A scaled-up version of the Mini allows for larger objects to be scanned. The scanning volume is approx. a sphere with 14-15cm diameter. This is the largest size before the flat cable for the camera slowly loses signal integrity, resulting in occasional camera hiccups. The Midi uses the same BOM as the Mini V2.
+A scaled-up version of the Mini allows for larger objects to be scanned. The scanning volume is approx. a sphere with 16cm diameter. This is the largest size before the flat cable for the camera slowly loses signal integrity, resulting in occasional camera hiccups. The Midi uses the same BOM as the Mini V2.
 The rotor has a diameter of 30cm and is too large for many build plates. Thus, a segmented version is also provided. The segments slide into each other and are fixated afterwards with filament pieces through the 9 holes (and a little CA glue if necessary) or via M2/M2.5 grub screws of approx length 10mm. The large rotor benefits from the non-essential bearing upgrades.
 
 ## OpenScan Classic
