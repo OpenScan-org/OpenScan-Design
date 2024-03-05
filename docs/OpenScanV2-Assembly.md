@@ -1,42 +1,42 @@
 # Building Manual OpenScan Mini & Midi V2
 
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/OpenScanMiniV2.jpg?raw=true)
+![Scanner](../main/images/OpenScanMiniV2.jpg?raw=true)
 
-## Intro
+# Intro
 
 Various parts and hardware were updated from V1 to V2 to improve rigidity and user-friendliness, especially in printing. No more part orientation and support structure settings in your slicer. Just print-in-place parts. The V2 design natively supports the V2 shields ("black shield"), which are currently inofficially available as a prototype on Discord.  
 
 V2 also uses heat inserts M3x4x5 (thread size x length x outer diameter), widely popularized in 3D printing, especially in Voron-style printers. For them, a *soldering iron* with a spare (or sacrificial) tip or special heat insert tip is required. Make-shift solutions with M3 bolts and lighter are not recommended due to the serious risk of burning your fingers.
 All other hardware parts are, such as RPi and Arducam IMX519, have not changed from the V1.
 
-## Printing and preparing the parts
+# Printing and preparing the parts
 
 All V2 parts are designed as print in place, i.e., no part re-orientation or supports are required. When supports are needed, then they are already modeled into the files. The recommended print settings are 4 perimeters and approx. 40% cubic infill. *Printing with 0.2mm layer height is highly recommended* because all dimensions and clearances of the parts are modeled as multiples of 0.2mm! Also, the rotor height is critical when you want to use the optional bearing upgrade. If you print the rotor on a powder coated sheet, then it will be slightly wider than anticipated. *It is recommended to print the rotor on a smooth or satin sheet*.
 The parts should be printed in *PETG or ABS/ASA* if your printer can handle it. PLA can also work, but due to the enclosed design, excessive heat from the motors and drivers can slowly deform PLA in the long term. When printing PLA, the motor currents MUST be adjusted to a working minimum to prevent heat creep of PLA (approx. 0.5A).
 The cogwheel/gear for the rotor motor might have an over- or undersized center hole, depending on your printer settings and capabilities. *It is recommended to print out this gear in three sizes, 95%, 100%, and 105%*, to ensure that one of the gears fits. The gear should fit snugly in the shaft with sufficient friction to hold it in place.
 
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/bridging-help.jpg?raw=true)
+![Scanner](../main/images/bridging-help.jpg?raw=true)
 
 Some parts have overhangs and bridges, dangling filament parts should be cleaned. Take special notice of the base part since sacrificial bridges are modeled into it. Those intentional bridges are for helping your slicer slice and properly place bridges in the arced overhang for the rotor. The sacrificial bridges around the bearing insert points should be removed carefully to be able to insert bearings later on. Those bridges can be left untouched when not planning on using bearings at all.
 As a last step, all required heat inserts should be appropriately set. Please take a look at the images below. Orange spots are mandatory heat inserts, and yellow spots are optional heat inserts for mods.
 
-### Base
+## Base
 
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/heatinserts-base.png?raw=true)
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/heatinserts-base-2.png?raw=true)
+![Scanner](../main/images/heatinserts-base.png?raw=true)
+![Scanner](../main/images/heatinserts-base-2.png?raw=true)
 
 Three inserts for the side cover are required. The additional ones at the bottom are for fixating the scanner to a table or optional turntable holder platform. The two optional ones on the top are for the light dome mod for more uniform illumination.
 
 
-### Rotor
+## Rotor
 
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/heatinserts-rotor.png?raw=true)
+![Scanner](../main/images/heatinserts-rotor.png?raw=true)
 
 *Only melt in ONE heat insert, depending on your available M3 bolt length!* M3x70 is recommended since it gives the most stability and secure fixation, but M3x70 is sometimes hard to source. If you have an M3x70, then melt in the heat insert on the side with the little endstop nose. If you cannot source an M3x70 for a reasonable price (or low quantity), pick the longest M3 you can find. Instead, melt the heat insert into the conical side, labeled with M3x40.
 
-### Imaging Unit Cover
+## Imaging Unit Cover
 
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/heatinserts-IU-cover.png?raw=true)
+![Scanner](../main/images/heatinserts-IU-cover.png?raw=true)
 
 Melt in four heat inserts as indicated. Try to leave the small ridges around the insertion point intact. They will help align the camera module later. There are some closed cut-outs. You have to remove the one that suits your JST-XH connector you solder onto it (or you break away all cut-outs, you monster).
 
@@ -72,7 +72,9 @@ When all parts are printed and prepared, assembly is mainly straightforward. The
 
 - For now, do *not* screw the base and electronics cover to the base. We have to install some cables first and that is easier with an opened scanner. We build the Imaging Unit next.
 
-## Imaging Unit
+# Imaging Unit
+
+![Scanner](../main/images/ImagingUnitV2.jpg?raw=true)
 
 - The imaging unit is a sandwich of parts, secured at the end with four M3 screws. Proper alignment before sandwiching them with screws makes the job quite easy. 
 
@@ -106,7 +108,7 @@ The last steps is connecting all wires and electronics to your OpenScan unit. He
 
 - When you confirmed that the electronics works and everything is adjusted, you can connect all the remaining wires and close the scanner.
 
-## Modding your OpenScan
+# Modding your OpenScan
 There are some user mods already available. My favorite is the illumination dome mod, which places a half-cylinder/half-sphere shell around the scanned area, minimizing auto-focus issues and smoothing illumination. You can freely share your mods on printables, Thingiverse, GitHub, or Discord. When sharing mods, ideally, you also provide print instructions, e.g., "print-in-place, N perimeters, M% infill, etc.". 
 
 
