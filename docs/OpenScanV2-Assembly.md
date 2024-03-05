@@ -11,7 +11,7 @@ All other hardware parts, such as RPi and Arducam IMX519, have not changed from 
 
 # Printing and preparing the parts
 
-All V2 parts are designed as print in place, i.e., no part re-orientation or supports are required. When supports are needed, then they are already modeled into the files. The recommended print settings are 4 perimeters and approx. 40% cubic infill. *Printing with 0.2mm layer height is highly recommended* because all dimensions and clearances of the parts are modeled as multiples of 0.2mm! Also, the rotor height is critical when you want to use the optional bearing upgrade. If you print the rotor on a powder-coated sheet, then it will be slightly wider than anticipated. *Printing the rotor on a smooth or satin sheet is recommended*.
+All V2 parts are designed as print in place, i.e., no part re-orientation or supports are required. When supports are needed, then they are already modeled into the files. The recommended print settings are 4 perimeters and approx. 40% cubic infill. *Printing with 0.2mm layer height is highly recommended* because all dimensions and clearances of the parts are modeled as multiples of 0.2mm! Also, the rotor height is critical when you want to use the optional bearing upgrade. If you print the rotor on a powder-coated sheet, it will be slightly wider than anticipated. *Printing the rotor on a smooth or satin sheet is recommended*.
 The parts should be printed in *PETG or ABS/ASA* if your printer can handle it. PLA can also work, but due to the enclosed design, excessive heat from the motors and drivers can slowly deform PLA in the long term. When printing PLA, the motor currents MUST be adjusted to a working minimum to prevent heat creep of PLA (approx. 0.5A).
 The cogwheel/gear for the rotor motor might have an over- or undersized center hole, depending on your printer settings and capabilities. *It is recommended to print out this gear in three sizes, 95%, 100%, and 105%*, to ensure that one of the gears fits. The gear should fit snugly in the shaft with sufficient friction to hold it in place.
 
@@ -58,19 +58,19 @@ When all parts are printed and prepared, assembly is mainly straightforward. The
 
 - For proper gear meshing, the height of the cog wheel on the Nema 17 shaft and the distance between the cog wheel and rotor must be adjusted. Insert the rotor into the base a little and set the position of the cogwheel on the shaft so that it aligns with the gear teeth of the rotor. Afterwards, loosen the M3 screws of the Nema 17, push the motor closer and tighten the screws again. Move the rotor forward and backward to check that the cog wheel is seated. You should be able to feel the friction of the stepper motor, 200 tiny "bumps" per rotation. 
 
-- Optional: Installing the rotor endstop is done with either M1.6 regular or M2 self-tapping screws. Check the orientation of the end stop first so that the nose of the rotor surely hits the switch. Currently, the endstop only prevents the rotor to swoop against the base, but is not using the endstop as homing point (might change with a software update soon)
+- Optional: Installing the rotor endstop is done with either M1.6 regular or M2 self-tapping screws. Check the orientation of the end stop first so that the nose of the rotor surely hits the switch. Currently, the endstop only prevents the rotor from swooping against the base but does not use the endstop as a homing point (might change with a software update soon)
 
 ## Base Cover and Electronics Cover
 
 - Place the shield in reverse, 2x20 connector points upwards, all remaining components downwards, onto the base cover and screw the M2.5 standoffs directly into the plastic of the cover. *They are not meant to bear large forces*. Do not overtighten them; otherwise, you strip the plastic. 
 
-- (black shield) Insert the flat CSI camera cable into the RPi. Take care of the correct orientation since only side has contacts. Guide the CSI cable through the slot of the black shield. Take care of proper orientation to prevent a kink in the cable.
+- (black shield) Insert the flat CSI camera cable into the RPi. Take care of the correct orientation since only one side has contacts. Guide the CSI cable through the slot of the black shield. Take care of proper orientation to prevent a kink in the cable.
 
-- Place/press the RPi into the 2x20 connector carefully. The 2x20 connector has quite high friction, so take your time and do not accidentally bend the pins. Place RPi cover on the RPi. You might have to angle it a little so that the cover does not collide with the I/O of the RPi.
+- Place/press the RPi into the 2x20 connector carefully. The 2x20 connector has quite high friction, so take your time and do not accidentally bend the pins. Place the RPi cover on the RPi. You might have to angle it a little so that the cover does not collide with the I/O of the RPi.
 
 - Use M2.5 screws to secure the cover to the RPI+shield assembly. Again, those should not be overtightened as they directly transfer  torque through the standoff into the plastic of the base cover.
 
-- For now, do *not* screw the base and electronics cover to the base. We have to install some cables first and that is easier with an opened scanner. We build the Imaging Unit next.
+- For now, do *not* screw the base and electronics cover to the base. We have to install some cables first, which is easier with an opened scanner. We build the Imaging Unit next.
 
 # Imaging Unit
 
@@ -78,33 +78,33 @@ When all parts are printed and prepared, assembly is mainly straightforward. The
 
 - The imaging unit is a sandwich of parts, secured at the end with four M3 screws. Proper alignment before sandwiching them with screws makes the job quite easy. 
 
-- The sandwich order from bottom to top is: IU cover, camera mount (with camera), *ring light PCB*, IU frame,  camera polariser (opaque), light polariser (translucent). Exactly like the numbering of the STL files (plus the ring light)
+- The sandwich order from bottom to top is IU cover, camera mount (with camera), *ring light PCB*, IU frame,  camera polariser (opaque), and light polariser (translucent). Precisely like the numbering of the STL files (plus the ring light)
 
 - Place the IU Cover in front of you. This will be the "base bread layer" of the sandwiched unit. Place the scanner base and cover next to it. You will need it soon.
 
-- Use the screw-in OR slide-in (recommended) mount for the camera, and place and align the lens in the center of the mount. The Ardcam IMX519 has an offset of 0.4mm of its lens from the center line (Arducam's fault), which is corrected in the mounts and its screw holes. If the lens looks very offset-ish, then you probably rotated the camera wrongly. If the slide-in mount feels too tight, scratch off some plastic with a screw driver to widen the gap.
+- Use the screw-in OR slide-in (recommended) mount for the camera, and place and align the lens in the center of the mount. The Ardcam IMX519 has an offset of 0.4mm of its lens from the center line (Arducam's fault), which is corrected in the mounts and its screw holes. If the lens looks very offset-ish, you probably rotated the camera wrongly. If the slide-in mount feels too tight, scratch off some plastic with a screwdriver to widen the gap.
 
-- Connect the cable to the camera. Take care of the proper orientation and *guide the cable through the slot in the scanner base first.* Then take the IU cover and feed the flat CSI cable through the slotted hole. Again, check orientation. Lastly place the camera mount with camera onto the four screw holes. The small ridges close to the heat inserts of the IU cover should help with alignment.
+- Connect the cable to the camera. Take care of the proper orientation and *guide the cable through the slot in the scanner base first.* Then, take the IU cover and feed the flat CSI cable through the slotted hole. Again, check orientation. Lastly place the camera mount with camera onto the four screw holes. The small ridges close to the heat inserts of the IU cover should help with alignment.
 
 - Check what JST-XH terminal, angled or straight, and ring light you have and which cut-out of the imaging unit cover you have to clear. Note, changing the terminal's orientation also changes its pinout order. Thus, the JST-XH connector pinout order has to flip, too.
 
-- After decided for the JST-XH terminal, carefully place the ring light PCB ontop of the camera mount. The lens should also be in the center of the PCB. Afterwards place the IU frame with already inserted M3 bolts onto the sandwich assembly and screw it down. The imaging part is now finished. 
+- After deciding on the JST-XH terminal, carefully place the ring light PCB on the camera mount. The lens should also be in the center of the PCB. Afterwards, place the IU frame with already inserted M3 bolts onto the sandwich assembly and screw it down. The imaging part is now finished. 
 
 ## Polariser Unit
 
-- In order to get best quality pictures for photogrammetry, the images should not include reflections and bright spots. The simplest way to reduce reflections is to illuminate with linear polarised light, e.g. horizontally polarized, and then capture only cross-polarized light, i.e. vertically polarized light, with the camera. This is what the polarizer unit does. The opaque camera polarizer and translucent light polarizer sheet *must be aligned for cross-polarization*.
+- In order to get the best quality pictures for photogrammetry, the images should not include reflections and bright spots. The simplest way to reduce reflections is to illuminate with linear polarised light, e.g. horizontally polarized, and then capture only cross-polarized light, i.e. vertically polarized light, with the camera. This is what the polarizer unit does. The opaque camera polarizer and translucent light polarizer sheet *must be aligned for cross-polarization*.
 
-- Place a polarisation sheet in front of you and place the translucent polariser flat on top. Trace the outline with a exacto-knife, scalpel or any sharp object. *Ideally, the orientation of the part should be parallel perpendicular to the shape of the polariser sheet.* Cut the polariser sheet to size, including cutting out the camera hole, and glue the sheet on the outside of the translucent polariser. 
+- Place a polarisation sheet in front of you and place the translucent polariser flat on top. Trace the outline with a exacto-knife, scalpel or any sharp object. *Ideally, the orientation of the part should be parallel or perpendicular to the shape of the polariser sheet.* Cut the polariser sheet to size, including cutting out the camera hole, and glue the sheet on the outside of the translucent polariser. 
 
-- Take the polarisor sheet again and cut out a rectangular piece of 20x12mm (approx. 3/4"x 1/2") either  *parallel OR perpendicular to the outline of the already cut-out sheet* for the translucent polariser. Slide this piece into the slot of the opaque camera polariser.
+- Take the polariser sheet again and cut out a rectangular piece of 20x12mm (approx. 3/4"x 1/2") either  *parallel OR perpendicular to the outline of the already cut-out sheet* for the translucent polariser. Slide this piece into the slot of the opaque camera polariser.
 
-- The octagonal opaque camera polariser fits into the translucent light polariser in multiple ways. *You have to press it in so that the two polarising sheets are oriented cross-polarized*. In case you did not keep track of the orientation of the polarising sheets, take a look into a mirror in a bright room. Look through the camera polariser into the mirror and onto light polariser. Now slowly rotate the light polariser. It should slowly change brightness between grey and black. *When the polariser looks black, you found the cross-polarising orientation of the two polarisers.* Now press the camera polariser into the light polariser. A tiny droplet of CA glue might help to bond it together.
+- The octagonal opaque camera polariser fits into the translucent light polariser in multiple ways. *You have to press it in so that the two polarising sheets are oriented cross-polarized*. If you did not keep track of the orientation of the polarising sheets, look into a mirror in a bright room. Look through the camera polariser into the mirror and onto the light polariser. Now, slowly rotate the light polariser. It should slowly change brightness between grey and black. *When the polariser looks black, you find the cross-polarising orientation of the two polarisers.* Now press the camera polariser into the light polariser. A tiny droplet of CA glue might help to bond it together.
 
 - Clip the polariser unit onto the IU. Done.
 
 ## Cabling, Electronics, and finishing the Build
 
-The last step is connecting all wires and electronics to your OpenScan unit. Head over to the electronics manual for pre-flight electronics checks. Then continue
+The last step is connecting all wires and electronics to your OpenScan unit. Head over to the [electronics manual](/docs/OpenScanV2-Electronics.md) for pre-flight electronics checks. Then continue
 
 - When you confirmed that the electronics works and everything is adjusted, you can connect all the remaining wires and close the scanner.
 
