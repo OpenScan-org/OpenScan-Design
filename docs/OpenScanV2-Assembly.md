@@ -9,6 +9,9 @@ Various parts and hardware were updated from V1 to V2 to improve rigidity and us
 V2 also uses heat inserts M3x4x5 (thread size x length x outer diameter), widely popularized in 3D printing, especially in Voron-style printers. For them, a *soldering iron* with a spare (or sacrificial) tip or special heat insert tip is required. Make-shift solutions with M3 bolts and lighter are not recommended due to the serious risk of burning your fingers.
 All other hardware parts, such as RPi and Arducam IMX519, have not changed from the V1.
 
+**have a look at the /images/assembly/ folder! A kind user shared an extensive collection of assembly photos**
+
+
 # Printing and preparing the parts
 
 All V2 parts are designed as print in place, i.e., no part re-orientation or supports are required. When supports are needed, then they are already modeled into the files. The recommended print settings are 4 perimeters and approx. 40% cubic infill. *Printing with 0.2mm layer height is highly recommended* because all dimensions and clearances of the parts are modeled as multiples of 0.2mm! Also, the rotor height is critical when you want to use the optional bearing upgrade. If you print the rotor on a powder-coated sheet, it will be slightly wider than anticipated. *Printing the rotor on a smooth or satin sheet is recommended*.
