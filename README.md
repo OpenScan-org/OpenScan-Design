@@ -39,6 +39,7 @@ Head over to the building instructions in the Documentation:
 | M1.6x12 (M2 self-tapping optional) | 2 | endstop: fixating the endstop, screw directly into the plastic; self-tapping screws work better |
 | Heat Inserts M3x4x5 | 2 | mounting points: for lighting dome mod |
 | M3x16mm standoff | 2 | mounting points: will replace two M3x8 from turntable, for lighting dome mod  |
+| M3x12mm SHCS/BHCS | 4 | for lighting dome mod, fixating the dome and adapter to the base |
 | F692 (2x6x3) mm | 4 | rotor guide: bearing with flange, will guide the rotor, reduce wobble and friction |
 | M2x14 SHCS/BHCS | 4 | rotor guide: will fixate the bearings in the base |
 | M3x70mm SHCS/BHCS | 1 | mounting IU to the rotor, put a heat insert on the *opposite* side of the rotor, extra stiffness |
