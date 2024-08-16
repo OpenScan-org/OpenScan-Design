@@ -7,7 +7,7 @@ The OpenScan devices come in different flavors. The Mini is the typical al-in-on
 | Mini V1 | [**Mini V1**](../STL/Mini/V1/) and [**Turntables**](../STL/turntables/Mini_and_Classic/)|
 | Mini V2 | [**Mini V2**](../STL/Mini/V2/) and [**Imaging Unit**](../STL/Imaging-Unit/) and [**Turntables**](../STL/turntables/Mini_and_Classic/)|
 | Midi V2 | [**Midi V2**](../STL/Midi/V2/) and [**Imaging Unit**](../STL/Imaging-Unit/) and [**Turntables**](../STL/turntables/Midi/)|
-| Classic V1 | [**Mini V2**](../STL/Classic/V2/) and [**Imaging Unit**](../STL/Imaging-Unit/) and [**Turntables**](../STL/turntables/Mini_and_Classic/)|
+| Classic V1 | [**Mini V2**](../STL/Classic/V2/) and [**Turntables**](../STL/turntables/Mini_and_Classic/)|
 
 Also, have a look at the [**Usermods**](../usermods/).
 
