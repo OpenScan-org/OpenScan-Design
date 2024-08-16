@@ -9,7 +9,7 @@ Various parts and hardware were updated from V1 to V2 to improve rigidity and us
 V2 also uses heat inserts M3x4x5 (thread size x length x outer diameter), widely popularized in 3D printing, especially in Voron-style printers. For them, a *soldering iron* with a spare (or sacrificial) tip or special heat insert tip is required. Make-shift solutions with M3 bolts and lighter are not recommended due to the serious risk of burning your fingers.
 All other hardware parts, such as RPi and Arducam IMX519, have not changed from the V1.
 
-**have a look at the /images/assembly/ folder! A kind user shared an extensive collection of assembly photos**
+**have a look at the [**Assembly Photo Guide**](../images/assembly/) under ../images/assembly/ ! A kind user shared an extensive collection of assembly photos**
 
 
 # Printing and preparing the parts
@@ -97,7 +97,7 @@ When all parts are printed and prepared, assembly is mainly straightforward. The
 
 - In order to get the best quality pictures for photogrammetry, the images should not include reflections and bright spots. The simplest way to reduce reflections is to illuminate with linear polarised light, e.g. horizontally polarized, and then capture only cross-polarized light, i.e. vertically polarized light, with the camera. This is what the polarizer unit does. The opaque camera polarizer and translucent light polarizer sheet *must be aligned for cross-polarization*.
 
-- Place a polarisation sheet in front of you and place the translucent polariser flat on top. Trace the outline with a exacto-knife, scalpel or any sharp object. *Ideally, the orientation of the part should be parallel or perpendicular to the shape of the polariser sheet.* Cut the polariser sheet to size, including cutting out the camera hole, and glue the sheet on the outside of the translucent polariser. 
+- Place a polarisation sheet in front of you and place the translucent polariser flat on top. Trace the outline with an exacto-knife, scalpel, or any sharp object. *Ideally, the orientation of the part should be parallel or perpendicular to the shape of the polariser sheet.* Cut the polariser sheet to size, including cutting out the camera hole, and glue the sheet on the outside of the translucent polariser. 
 
 - Take the polariser sheet again and cut out a rectangular piece of 20x12mm (approx. 3/4"x 1/2") either  *parallel OR perpendicular to the outline of the already cut-out sheet* for the translucent polariser. Slide this piece into the slot of the opaque camera polariser.
 
@@ -109,7 +109,7 @@ When all parts are printed and prepared, assembly is mainly straightforward. The
 
 The last step is connecting all wires and electronics to your OpenScan unit. Head over to the [electronics manual](/docs/OpenScanV2-Electronics.md) for pre-flight electronics checks. Then continue
 
-- When you confirmed that the electronics works and everything is adjusted, you can connect all the remaining wires and close the scanner.
+- When you confirm that the electronics work and everything is adjusted, you can connect all the remaining wires and close the scanner.
 
 # Modding your OpenScan
 There are some user mods already available. My favorite is the illumination dome mod, which places a half-cylinder/half-sphere shell around the scanned area, minimizing auto-focus issues and smoothing illumination. You can freely share your mods on printables, Thingiverse, GitHub, or Discord. When sharing mods, ideally, you also provide print instructions, e.g., "print-in-place, N perimeters, M% infill, etc.". 
