@@ -4,10 +4,12 @@ The OpenScan devices come in different flavors. The Mini is the typical al-in-on
 
 | Version | Needed Parts (incl. Links) |
 | :---: | :---: |
-| Mini V1 | [**Mini V1**](../STL/Mini/V1/) and [**Turntables**](../STL/turntables/Mini_and_Classic/)|
-| Mini V2 | [**Mini V2**](../STL/Mini/V2/) and [**Imaging Unit**](../STL/Imaging-Unit/) and [**Turntables**](../STL/turntables/Mini_and_Classic/)|
-| Midi V2 | [**Midi V2**](../STL/Midi/V2/) and [**Imaging Unit**](../STL/Imaging-Unit/) and [**Turntables**](../STL/turntables/Midi/)|
-| Classic V1 | [**Mini V2**](../STL/Classic/V2/) and [**Turntables**](../STL/turntables/Mini_and_Classic/)|
+| Mini V1 (still going strong) | [**Base Parts Mini V1**](../files/Mini/V1/) and [**Turntables**](../files/turntables/Mini_and_Classic/)|
+| Mini V2.0 (fading out) | [**Base Parts Mini V2.0**](../files/Mini/V2.0/) and [**Imaging Unit**](../files/Imaging-Unit/) and [**Turntables**](../files/turntables/Mini_and_Classic/)|
+| Mini V2.1 | [**Base Parts Mini V2.1**](../files/Mini/V2/) and [**Imaging Unit**](../files/Imaging-Unit/) and [**Turntables**](../files/turntables/Mini_and_Classic/)|
+| Midi V2.0 (fading out) | [**Base Parts Midi V2.0**](../files/Midi/V2.0/) and [**Imaging Unit**](../files/Imaging-Unit/) and [**Turntables**](../files/turntables/Midi/)|
+| Midi V2.1 | [**Base Parts Midi V2.1**](../files/Midi/V2.1/) and [**Imaging Unit**](../files/Imaging-Unit/) and [**Turntables**](../files/turntables/Midi/)|
+| Classic V1 | [**Base Parts Classic V1**](../files/Classic/V1/) and [**Turntables**](../files/turntables/Mini_and_Classic/)|
 
 Also, have a look at the [**Usermods**](../usermods/).
 
@@ -21,8 +23,8 @@ As for color, a matte and dark color is recommended for all, but the translucent
 SLA resin is not recommended since many resins do not have the ductility or heat resistance (but users made it work).
 
 ## Built-in bridging help for V2 versions
-![Scanner](https://github.com/probably-Erwins-Cat/OpenScan-Design/blob/main/images/bridging-help.png?raw=true)
-All V2 parts are designed as print-in-place, i.e., no part re-orientation or supports are required. When supports are needed, then they are already modeled into the files.
+![Scanner](/images/bridging-help.png?raw=true)
+The V2.X parts are designed as print-in-place, i.e., no part re-orientation or supports are required. When supports are needed, then they are already modeled into the files.
 The V2's have included bridging helpers so your printer always takes the shortest bridging path when printing the rotor housing. This remedies the issue with many slicers when printing long but narrow overhang bridges of curved surfaces. No more screwed up bridges because a slicer had a bad day. **You do not need additional, slicer generated supports for the V2 models**. 
 
 ## Finished Printing
