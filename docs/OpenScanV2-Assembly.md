@@ -107,7 +107,7 @@ When all parts are printed and prepared, assembly is mainly straightforward. The
 
 ## Cabling, Electronics, and finishing the Build
 
-The last step is connecting all wires and electronics to your OpenScan unit. Head over to the [electronics manual](/docs/OpenScanV2-Electronics.md) for pre-flight electronics checks. Then continue
+The last step is connecting all wires and electronics to your OpenScan unit. Head over to the [electronics manual](../docs/OpenScanV2-Electronics.md) for pre-flight electronics checks. Then continue
 
 - When you confirm that the electronics work and everything is adjusted, you can connect all the remaining wires and close the scanner.
 
