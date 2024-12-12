@@ -6,7 +6,7 @@ The OpenScan devices come in different flavors. The Mini is the typical al-in-on
 | :---: | :---: |
 | Mini V1 (still going strong) | [**Base Parts Mini V1**](../files/Mini/V1/) and [**Turntables**](../files/turntables/Mini_and_Classic/)|
 | Mini V2.0 (fading out) | [**Base Parts Mini V2.0**](../files/Mini/V2.0/) and [**Imaging Unit**](../files/Imaging-Unit/) and [**Turntables**](../files/turntables/Mini_and_Classic/)|
-| Mini V2.1 | [**Base Parts Mini V2.1**](../files/Mini/V2/) and [**Imaging Unit**](../files/Imaging-Unit/) and [**Turntables**](../files/turntables/Mini_and_Classic/)|
+| Mini V2.1 | [**Base Parts Mini V2.1**](../files/Mini/V2.1/) and [**Imaging Unit**](../files/Imaging-Unit/) and [**Turntables**](../files/turntables/Mini_and_Classic/)|
 | Midi V2.0 (fading out) | [**Base Parts Midi V2.0**](../files/Midi/V2.0/) and [**Imaging Unit**](../files/Imaging-Unit/) and [**Turntables**](../files/turntables/Midi/)|
 | Midi V2.1 | [**Base Parts Midi V2.1**](../files/Midi/V2.1/) and [**Imaging Unit**](../files/Imaging-Unit/) and [**Turntables**](../files/turntables/Midi/)|
 | Classic V1 | [**Base Parts Classic V1**](../files/Classic/V1/) and [**Turntables**](../files/turntables/Mini_and_Classic/)|
