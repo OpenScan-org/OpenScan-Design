@@ -19,5 +19,5 @@ like so:
 | Alan Devine | Turntables for D-shaped Shaft | Mod name is self-explanatory. D-shaped hole provides proper form-fit of the shaft and the turntable  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  :x: | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | ep1cman | Platform Holder | Base Plate with 4 slots for turntable storage | :x: | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
 | advisoray | ScanDome | Add a removable dome to block out any distracting noise from scanner background | :heavy_check_mark: | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
-| elvum | Enhanced Diffuser (Classic) | A diffuser for the Openscan Classic with a shade to block scattered light and polariser holders | :x: | :x: | :x: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| elvum | Enhanced Diffuser (Classic) | A diffuser for the Openscan Classic with a camera shade to block scattered light, and polariser holders | :x: | :x: | :x: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |
 
