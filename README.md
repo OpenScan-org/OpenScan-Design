@@ -35,6 +35,10 @@ The design of version 2 is aimed at the OpenScan Shield Version 2 ("black shield
 
 [**BOM V2.3**](/docs/BOM-V2.3.md)
 
+## BOM V2.4
+
+[**BOM V2.4**](/docs/BOM-V2.4.md)
+
 
 # OpenScan Midi V2.X
 ![Scanner](/images/OpenScanMidi.jpg?raw=true)
@@ -53,6 +57,10 @@ The rotor has a diameter of 30cm and is too large for many build plates. Thus, a
 ## BOM V2.3
 
 [**BOM V2.3**](/docs/BOM-V2.3.md)
+
+## BOM V2.4
+
+[**BOM V2.4**](/docs/BOM-V2.4.md)
 
 # OpenScan Classic
 ![Scanner](/images/OpenScanClassic.jpg?raw=true)
