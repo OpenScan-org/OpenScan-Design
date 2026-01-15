@@ -1,8 +1,8 @@
-# BOM V2.3
+# BOM V2.4
 
-Mini and Midi V2.3 are using the exact same BOM for the basic hardware parts. The only difference in the required parts is the length of the needed electronics cables, i.e. ring light cable and camera cable.
+Mini and Midi V2.4 are using the exact same BOM for the basic hardware parts. The only difference in the required parts is the length of the needed electronics cables, i.e. ring light cable and camera cable.
 
-## Essential BOM V2.3
+## Essential BOM V2.4
 
 | Part | Amount | Short Description |
 | :--- | :---: | :---: |
