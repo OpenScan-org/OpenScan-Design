@@ -1,6 +1,6 @@
 # BOM V2.4
 
-Mini and Midi V2.4 are using the exact same BOM for the basic hardware parts. The only difference in the required parts is the length of the needed electronics cables, i.e. ring light cable and camera cable.
+Mini and Midi are using the exact same BOM for the basic hardware parts. The only difference in the required parts is the length of the needed electronics cables, i.e. ring light cable and camera cable.
 
 ## Essential BOM V2.4
 
@@ -13,7 +13,7 @@ Mini and Midi V2.4 are using the exact same BOM for the basic hardware parts. Th
 | M2.5x10mm SHCS | 8 | fixating RPi, shield, electronics cover and base cover |
 | lubricant | 2-3 ml | lubricant that doesn't dissolve printed parts, i.e., white lithium grease, for cog wheel |
 
-## Non-Essential BOM V2.3 (Luxury and tinkerer upgrades)
+## Non-Essential BOM (Luxury and tinkerer upgrades)
 
 ### Endstop
 | Part | Amount | Short Description |
