@@ -11,6 +11,7 @@ Mini and Midi are using the exact same BOM for the basic hardware parts. The onl
 | Heat Inserts M3x4x5 | 3+1+4 | sometimes called "Voron" inserts for base, rotor, and cam mount. Must be 5mm diameter! 4.6mm diameter will not sit securely. They require a soldering iron to melt them in. |
 | M2.5x18mm standoff *female-female* | 4 | standoffs sandwiched between RPi and black shield |
 | M2.5x10mm SHCS | 8 | fixating RPi, shield, electronics cover and base cover |
+| M2x8mm SHCS | 2 | optional screws for fixating camera if friction fit is not enough |
 | lubricant | 2-3 ml | lubricant that doesn't dissolve printed parts, i.e., white lithium grease, for cog wheel |
 
 ## Non-Essential BOM (Luxury and tinkerer upgrades)
@@ -18,7 +19,7 @@ Mini and Midi are using the exact same BOM for the basic hardware parts. The onl
 ### Endstop
 | Part | Amount | Short Description |
 | :--- | :---: | :---: |
-| microswitch w or w/o lever | 1 | endstop: standard microswitch found in many 3D printers, quality ones prefered (eg Omron D2FC) |
+| microswitch w or w/o lever | 1 | endstop: standard microswitch found in many 3D printers, quality ones prefered (e.g. Omron D2FC) |
 | M1.6x12 or M2 self-tapping | 2 | endstop: fixating the endstop, screw directly into the plastic |
 
 ### Lighting Dome
