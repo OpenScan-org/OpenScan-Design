@@ -27,7 +27,7 @@ Mini and Midi are using the exact same BOM for the basic hardware parts. The onl
 | :--- | :---: | :---: |
 | Heat Inserts M3x4x5 | 2 | mounting points: for lighting dome mod |
 | M3x35mm SHCS/BHCS | 2 | mounting points: will replace two M3x8 from turntable, for lighting dome mod, sandwich dome mod adapter  |
-| M3x12mm SHCS/BHCS | 4 | for lighting dome mod, fixating the dome and adapter to the base |
+| M3x12mm SHCS/BHCS | 2 | for lighting dome mod, fixating the dome and adapter to the base |
 
 ### Anti-wobble Rotor
 | Part | Amount | Short Description |
