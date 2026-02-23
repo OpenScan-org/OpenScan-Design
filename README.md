@@ -10,7 +10,7 @@ The documentation is separated in parts, and can be found in the /docs/ folder:
 
 [**Electronics Guide for green and black shield**](/docs/OpenScanV2-Electronics.md)
 
-[**Black Shield Manual**](/docs/Black Shield V2.pdf)
+[**Black Shield Manual**](docs/Black%20Shield%20V2.pdf)
 
 
 # OpenScan Mini V1
