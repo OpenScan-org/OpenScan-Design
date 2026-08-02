@@ -12,8 +12,15 @@ The OpenScan devices come in different flavors. The Mini is the typical al-in-on
 Also, have a look at the [**Usermods**](../usermods/).
 
 ## Print settings and material
-The deives was designed with FDM printing in mind. The device should be sturdy since it has some heavy and moving parts attached and the electronics is also generating some heat. Generally, 3-4 walls, 5-6 top and bottom layers, 30-40% infill cuboid/gyroid/hex/grid is recommended. Importantly, all critical dimensions for tolerances and clearances are a multiple of 0.2mm, thus **a layer height of 0.2mm is highly recommended** for proper functionality. All parts are print-in-place.
-It is recommended to use a smooth or satin print surface. **Heavily structured print surfaces, such as powder-coated, will impact the dimensional accuracy of the rotor height.** This can cause additional friction or improper alignment.
+The device was designed with FDM printing in mind. The device should be sturdy since it has some heavy and moving parts attached and the electronics is also generating some heat. General print settings are:
+
+- 3-4 walls
+- 5-6 top and bottom layers
+- 30-40% infill cuboid/gyroid/hex/grid is recommended
+- **a layer height of 0.2mm is highly recommended** for proper functionality since all critical dimensions for tolerances and clearances are a multiple of 0.2mm.
+- All parts are print-in-place with included support structures. Deactivate automated slicer supports.
+- smooth or satin bed surface is recommended **Heavily structured print surfaces, such as powder-coated, will impact the dimensional accuracy of the rotor height.** This can cause additional friction or improper alignment.
+
 The cogwheel/gear for the rotor motor might have an over- or undersized center hole, depending on your printer settings and capabilities. *It is recommended to print out this gear in three sizes, 95%, 100%, and 105%*, to ensure that one of the gears fits. The gear should fit snugly in the shaft with sufficient friction to hold it in place, but should not require excessive force to seat it. Alternatively, you can print out cogwheels/gears with varying (inner) hole/perimeter compensation in your slicer settings, which slightly expands or contracts holes of a model.
 
 While it is okay to use PLA, PLA can slowly deform under the warmth and weight of the motors, when having multiple long scanning sessions in warm environments. Thus, it is recommended to use PETG or ABS/ASA (if your printer can reliably print those). Further, when using PLA, it is highly recommended to reduce the V_ref of the drivers to 0.5V to limit the heat generation.
@@ -22,8 +29,8 @@ SLA resin is not recommended since many resins do not have the ductility or heat
 
 ## Built-in bridging help for V2 versions
 ![Scanner](/images/bridging-help.png?raw=true)
-The V2.X parts are designed as print-in-place, i.e., no part re-orientation or supports are required. When supports are needed, then they are already modeled into the files.
-The V2's have included bridging helpers so your printer always takes the shortest bridging path when printing the rotor housing. This remedies the issue with many slicers when printing long but narrow overhang bridges of curved surfaces. No more screwed up bridges because a slicer had a bad day. **You do not need additional, slicer generated supports for the V2 models**. 
+The **V2.X parts are designed as print-in-place**, i.e., no part re-orientation or supports are required. When supports are needed, then they are already modeled into the files.
+The **V2.X's have included bridging helpers** so your printer always takes the shortest bridging path when printing the rotor housing. This remedies the issue with many slicers when printing long but narrow overhang bridges of curved surfaces. No more screwed up bridges because a slicer had a bad day. **You do not need additional, slicer generated supports for the V2 models**. 
 
 ## Finished Printing
 When all parts are printed, go over to the [**Electronics Start-up guide**](/OpenScanV2-Electronics.md) and confirm that the electronics is working properly. You can then continue with the [**Assembly guide**](/OpenScanV2-Assembly.md).
