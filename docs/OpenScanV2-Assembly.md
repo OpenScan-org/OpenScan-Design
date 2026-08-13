@@ -49,6 +49,8 @@ When all parts are printed and prepared, assembly is mainly straightforward. The
 
 ## Rotor
 
+- The rotor has one built-in support for the Imaging Unit. This double-conical support structure must be removed so the IU can fit there.
+
 - (Segmented rotor) If you print the segmented rotor, the pieces should slide firmly into each other. If it does not slide well enough, take some fine sanding paper and sand the center fin a little, and try again. 
 
 - (Segmented rotor) The nine holes of the segments should align. You can either guide 10mm filament pieces or 10mm M2 grub screws through the nine holes for locking the rotor parts into place. A little dab of CA glue permanently fixates them.
@@ -56,7 +58,11 @@ When all parts are printed and prepared, assembly is mainly straightforward. The
 - (Unibody rotor) Nothing. The unibody rotor does not need further assembly.
 
 ## Base of Mini/Midi
-- (Optional) Install tiny bearings with M2 screws for the rotor. They are located at the entrance and exit where the rotor is inserted. The flanges should point downwards. The tiny M2 screws screw directly into the plastic. Those screws are for straight alignment only, NOT for high clamping force, so do NOT overtighten them. 
+
+- (Optional older versions) Install tiny bearings with M2 screws for the rotor. They are located at the entrance and exit where the rotor is inserted. The flanges should point downwards. The tiny M2 screws screw directly into the plastic. Those screws are for straight alignment only, NOT for high clamping force, so do NOT overtighten them.
+
+- (Optional newer versions) Tape thin adhesive velvet strips to the outer side of the rotor to reduce friction and vibration between rotor and base. Less vibration of the rotor means higher maximum movement speed an acceleration.
+
 - Install a Nema17 (preferably the 40Ncm) for the Rotor ([angled position](https://github.com/OpenScan-org/OpenScan-Design/blob/main/images/assembly/06_base_motor.JPG)). The slotted M3 holes are for proper gear meshing of the cog wheel and rotor later. Tighten the M3x8 screws only lightly at first. Add the best-fitting cog wheel/gear to the rotor Nema 17. The gear should have a reasonable friction and form fit. Check and align the motor before screwing them fully in. The cable connector might be challenging to reach if you orient them to the wrong side.
 
 - For proper gear meshing, the height of the cog wheel on the Nema 17 shaft and the distance between the cog wheel and rotor must be adjusted. Insert the rotor into the base a little and set the position of the cogwheel on the shaft so that it aligns with the gear teeth of the rotor. Afterwards, loosen the M3 screws of the Nema 17, push the motor closer and tighten the screws again. Move the rotor forward and backward to check that the cog wheel is seated. You should be able to feel the friction of the stepper motor, 200 tiny "bumps" per rotation. 
@@ -113,7 +119,3 @@ The last step is connecting all wires and electronics to your OpenScan unit. Hea
 
 # Modding your OpenScan
 There are some user mods already available. My favorite is the illumination dome mod, which places a half-cylinder/half-sphere shell around the scanned area, minimizing auto-focus issues and smoothing illumination. You can freely share your mods on printables, Thingiverse, GitHub, or Discord. When sharing mods, ideally, you also provide print instructions, e.g., "print-in-place, N perimeters, M% infill, etc.". 
-
-
-
-
